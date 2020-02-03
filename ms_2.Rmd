@@ -1,0 +1,30 @@
+---
+title: 'Milestone #2 Gov 1005: Data'
+output:
+  pdf_document: default
+  html_document: default
+---
+Cameron Reaves
+
+I'm interested in using Twitter data for my final project. That said, I wanted to look at past projects that have used twitter data and examine what they did right and what they did wrong. 
+
+The first project I looked at was Hemanth Bharatha Chakravarthy's project from Spring 2019 called "Twitter in the Biggest Elections in the World". 
+
+https://hemanth-bharatha-chakravarthy.shinyapps.io/lok_sabha/
+
+Cons: 
+The "About" page is really ugly. The background color is white and the font color is white, highlighted with a black background font color. It is really hard to read and the text is moved all to one side. The work cloud chart on "The Public Sentiment" page is not informative and in my opinion seems to be filler content. The table showing a summary of the sentiment analysis could have been turned into a chart/graphic which would just make the information provided come across better. Finally, "The Twitter Forecast" page just looks broken. When you click on the geo-tags, the text is non-sensical; I don't know what the data or information being provided to me means. 
+
+Pros:
+Sentiment over time is a really neat idea would lend itself to answer a real social science question. The fake tweet chart is also quite interesting, but maybe having a fixed y-axis limit would allow users to compare which potentially fake tweets were more popular than others. And obviously, the "classic" positive / negative chart on "The Public Sentiment" page boths looks stylish and conveys a lot of meaning!
+
+The second project that I looked at was called "Public Transportation and Income in the San Francisco Bay Area", which was created by Emmanuel Calivo in Fall 2019. I chose this project because I am personally interested in transportation and I wanted to see what data he was working with and how he used it.
+
+https://eacalivo.shinyapps.io/TransitAndIncome/
+
+Cons: 
+The landing page called "Home" was okay. There is a really great looking picture of the San Francisco Bridge, but when you scroll down to look at the text, it is kinda disappointing. What I think could have improved this is that the landing page is no-scroll and you put the text on top of the picture, maybe that was too technically challenging for him. On his main visualization, he should have locked the zoom in/out boundaries--since he is only displaying data for the Bay Area,there is no reason for the user to be able to zoom significantly out. If it was possible, he should have color-coded the map so that the regions with the highest number and the lowest number of rapid transit stop immediately popped out of the screen at the user.
+
+Pros:
+I really like that he attached a paper document or white paper on the shiny web app, in addition to including a link to a video walkthrough of his project. I might also decide to do the same thing. The regression models were also pretty insightful and could even be used by policy makers in San Francisco if they wanted to change the access to public transportation for areas with higher median incomes. 
+
